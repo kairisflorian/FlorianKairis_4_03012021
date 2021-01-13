@@ -54,11 +54,6 @@ a {
     background-color: transparent
 }
 
-a:active,
-a:hover {
-    outline: 0
-}
-
 abbr[title] {
     border-bottom: 1px dotted
 }
@@ -1538,7 +1533,7 @@ h6 .small,
 h6 small {
     font-weight: 400;
     line-height: 1;
-    color: #777
+    color: #323530
 }
 
 .h1,
@@ -4883,7 +4878,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     max-width: none
 }
 
-.nav-tabs {
+.babs {
     border-bottom: 1px solid #ddd
 }
 
@@ -5224,7 +5219,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-toggle:focus {
-    outline: 0
+    outline: 0;           
 }
 
 .navbar-toggle .icon-bar {
@@ -5476,12 +5471,12 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #ddd
+    border-color: white;
 }
 
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
-    background-color: #ddd
+    background-color: red;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
